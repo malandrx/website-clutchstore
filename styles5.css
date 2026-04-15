@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    background-color: #0f0f1e;
+    color: #fff;
+    font-size: 16px;
+    overflow: hidden
+}
+
+header {
+    position: fixed;
+    top: 0;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+    gap: 365px;
+}
+
+.logo {
+      font-family: "Orbitron", sans-serif;
+      font-size: 2rem;
+      font-weight: 900;
+      color: #00f7ff;
+      text-shadow: 0 0 10px rgba(0, 247, 255, 0.5);
+}
+
+header nav ul {
+    display: flex;
+    gap: 48px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header nav ul li {
+    position: relative;
+    padding: 5px 0;
+}
+
+header nav ul li::after {
+content: '';
+position: absolute;
+left: 0;
+bottom: 0;
+width: 0;
+height: 2px;
+background-color: #00f7ff;
+transition: width 0.5s ease;
+}
+
+header nav ul li:hover::after {
+    width: 108px;
+}
+
+main.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.list {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 30px;
+    gap: 18px;
+    opacity: 0;
+}
+
+.active {
+    opacity: 1;
+}
+
+.product {
+    width: auto;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-copy {
+    margin-top: 18px;
+    width: 100%;
+    max-width: 720px;
+    text-align: center;
+    padding: 0 14px;
+}
+
+.hero-copy p {
+    margin: 0 auto;
+    color: #fff;
+    font-size: 0.98rem;
+    line-height: 1.55;
+    max-width: 720px;
+    text-align: center;
+    padding: 0 0;
+}
+
+.hero-copy p + p {
+    margin-top: 18px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #00f7ff;
+    color: #0f0f1e;
+    font-weight: 600;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}

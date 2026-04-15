@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <header>
+        <div class="logo"> Clutch Store </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Página Inicial</a>
+                </li>
+                <li>
+                    <a href="sobrenos.html">Sobre Nós</a>
+                </li>
+                <li>
+                    <a href="produtos.html">Produtos</a>
+                </li>
+                <li>
+                    <a href="novidades.html">Novidades</a>
+                </li>
+                <li>
+                    <a href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="list">
+            <div class="item active">
+                <div class="product">
+                    <img src="./img/headsetgamer.png" alt="Headset Gamer">
+                </div>
+                <div class="content">
+                    <p class="product-tag"> NOVO LANÇAMENTO </p>
+                    <p class="product-name"> Headset Gamer Clutcher V1 USB </p>
+                    <p class="product-description"> Prepare-se para elevar seu gameplay com o novo Clutcher V1, o headset que redefine a imersão competitiva. Projetado para quem não aceita menos que a perfeição técnica, ele combina som de ultra-alta definição com o máximo conforto para maratonas intensas.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="product">
+                    <img src="./img/mousegamer.png" alt="Mouse Gamer">
+                </div>
+                <div class="content">
+                    <p class="product-tag"> ALTA PERFOMANCE </p>
+                    <p class="product-name"> Mouse Gamer Clutch X1 Pro Wireless </p>
+                    <p class="product-description"> Apresento o Clutch X1 Pro Wireless, o mouse gamer que redefine os limites da performance sem fio. Projetado para quem busca a perfeição em cada clique, ele combina um design minimalista e ultraleve com a tecnologia de ponta necessária para dominar qualquer partida.</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="product">
+                    <img src="./img/tecladogamer.png" alt="Teclado Gamer">
+                </div>
+                <div class="content">
+                    <p class="product-tag"> MELHOR CUSTO-BENEFÍCIO </p>
+                    <p class="product-name"> Teclado Gamer Clutch K1 Pro RGB </p>
+                    <p class="product-description"> Introduzindo o Clutch K1 Pro RGB, o teclado gamer 70% que eleva a experiência de jogo a um novo patamar. Projetado para profissionais e entusiastas, ele combina switches de alta performance com iluminação RGB personalizável para uma experiência imersiva e estilosa.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrows">
+            <button class="arrow-btn" id="prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-caret-left" viewBox="0 0 16 16">
+  <path d="M10 12.796V3.204L4.519 8zm-.659.753-5.48-4.796a1 1 0 0 1 0-1.506l5.48-4.796A1 1 0 0 1 11 3.204v9.592a1 1 0 0 1-1.659.753"/>
+</svg>
+                    </button>
+
+                    <button class="arrow-btn" id="next">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-caret-right" viewBox="0 0 16 16">
+  <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
+</svg>
+                    </button>
+                </div>
+                <div class="indicators">
+                     <div class="dot active"></div>
+                      <div class="dot"></div>
+                       <div class="dot"></div>
+                </div>
+            </main>
+            <script src="scripts.js"></script>
+</body>
+</html>
